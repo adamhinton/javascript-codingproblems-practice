@@ -68,7 +68,8 @@ var isSquare = function (n) {
 
 function friend(friends) {
   return friends.filter((name) => {
-    console.log("name:", name);
+    // console.log("name:", name);
+    return name.length === 4;
   });
 }
 
