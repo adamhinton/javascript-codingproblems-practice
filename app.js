@@ -17,6 +17,9 @@ function squareDigits(num) {
 
   for (let i = 0; i < numToString.length; i++) {
     // console.log("numToString[i]:", numToString[i]);
+
+    const exponentToBeAdded = String(Number(numToString[i]) ** 2);
+    s;
   }
   return Number(solution);
 }
