@@ -66,4 +66,15 @@ var isSquare = function (n) {
 // if item.length === 4 return item
 // return the filtered array
 
+function friend(friends) {
+  return friends.filter((name) => {
+    console.log("name:", name);
+  });
+}
+
+console.log(
+  'friend(["Ryan", "Kieran", "Mark"]):',
+  friend(["Ryan", "Kieran", "Mark"])
+);
+
 // ****************
