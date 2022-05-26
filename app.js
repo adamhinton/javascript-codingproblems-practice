@@ -20,7 +20,6 @@ function squareDigits(num) {
 
     const exponentToBeAdded = String(Number(numToString[i]) ** 2);
     solution += exponentToBeAdded;
-    s;
   }
   return Number(solution);
 }
