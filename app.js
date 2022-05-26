@@ -16,3 +16,7 @@ function squareDigits(num) {
 
   return Number(solution);
 }
+
+console.log("squareDigits(123):", squareDigits(123));
+console.log("squareDigits(0):", squareDigits(0));
+console.log("squareDigits(1234):", squareDigits(1234));
