@@ -37,4 +37,9 @@ function squareDigits(num) {
 
 // The tests will always use some integral number, so don't worry about that in dynamic typed languages.
 
+// PLAN:
+// Need to figure out if num is perfect square
+// Find sq rt of num
+// if num is integer, return true. else false
+
 // ************
