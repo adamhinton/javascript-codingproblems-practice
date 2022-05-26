@@ -6,4 +6,9 @@
 // const solution = "";
 // Convert num in to string
 //
+// convert solution to num
 // return solution;
+
+function squareDigits(num) {
+  return 0;
+}
