@@ -13,7 +13,7 @@
 
 function squareDigits(num) {
   const solution = "";
-
+  const numToString = String(num);
   return Number(solution);
 }
 
