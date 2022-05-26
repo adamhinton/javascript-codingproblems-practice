@@ -12,5 +12,7 @@
 // return solution;
 
 function squareDigits(num) {
-  return 0;
+  const solution = "";
+
+  return Number(solution);
 }
