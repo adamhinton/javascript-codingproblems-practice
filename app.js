@@ -44,9 +44,7 @@ function squareDigits(num) {
 
 var isSquare = function (n) {
   const mySquareRoot = Math.sqrt(n);
-  console.log("mySquareRoot:", mySquareRoot);
-
-  return false; // fix me
+  return Number.isInteger(mySquareRoot);
 };
 
 console.log("isSquare(25):", isSquare(25));
