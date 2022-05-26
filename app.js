@@ -47,6 +47,4 @@ var isSquare = function (n) {
   return Number.isInteger(mySquareRoot);
 };
 
-console.log("isSquare(25):", isSquare(25));
-
 // ************
