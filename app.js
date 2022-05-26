@@ -14,9 +14,13 @@
 function squareDigits(num) {
   const solution = "";
   const numToString = String(num);
+
+  for (let i = 0; i < numToString.length; i++) {
+    // console.log("numToString[i]:", numToString[i]);
+  }
   return Number(solution);
 }
 
 console.log("squareDigits(123):", squareDigits(123));
-console.log("squareDigits(0):", squareDigits(0));
-console.log("squareDigits(1234):", squareDigits(1234));
+// console.log("squareDigits(0):", squareDigits(0));
+// console.log("squareDigits(1234):", squareDigits(1234));
