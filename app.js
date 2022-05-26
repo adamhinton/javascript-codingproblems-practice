@@ -5,7 +5,9 @@
 // PLAN:
 // const solution = "";
 // Convert num in to string
-//
+//loop over string:
+//// for each, solution += String(Number(string[i]) ** 2)
+////// not sure I have that syntax right
 // convert solution to num
 // return solution;
 
