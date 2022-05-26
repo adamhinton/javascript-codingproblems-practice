@@ -59,3 +59,11 @@ var isSquare = function (n) {
 
 // friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
 // Note: keep the original order of the names in the output.
+
+// PLAN:
+// Loop over array of friends
+// use .filter:
+// if item.length === 4 return item
+// return the filtered array
+
+// ****************
