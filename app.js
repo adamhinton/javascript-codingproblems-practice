@@ -42,4 +42,13 @@ function squareDigits(num) {
 // Find sq rt of num
 // if num is integer, return true. else false
 
+var isSquare = function (n) {
+  const mySquareRoot = Math.sqrt(n);
+  console.log("mySquareRoot:", mySquareRoot);
+
+  return false; // fix me
+};
+
+console.log("isSquare(25):", isSquare(25));
+
 // ************
