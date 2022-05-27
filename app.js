@@ -53,12 +53,3 @@ const sumOfDigits = (n) => {
   }
   return total;
 };
-
-console.log("digital_root(16):", digital_root(16));
-console.log("digital_root(942):", digital_root(942));
-console.log("digital_root(493193):", digital_root(132189));
-console.log("digital_root(493193):", digital_root(493193));
-
-// console.log("sumOfDigits(25):", sumOfDigits(25));
-// console.log("sumOfDigits(0):", sumOfDigits(0));
-// console.log("sumOfDigits(179):", sumOfDigits(179));
