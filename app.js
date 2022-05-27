@@ -12,16 +12,16 @@
 // if word.length >= 5 word.reverse()
 // return myArray
 
-const spinWords = (string) => {
-  const myArray = string.split(" ");
+// const spinWords = (string) => {
+//   const myArray = string.split(" ");
 
-  for (let i = 0; i < myArray.length; i++) {
-    if (myArray[i].length >= 5) {
-      myArray[i] = myArray[i].split("").reverse().join("");
-    }
-  }
-  return myArray.join(" ");
-};
+//   for (let i = 0; i < myArray.length; i++) {
+//     if (myArray[i].length >= 5) {
+//       myArray[i] = myArray[i].split("").reverse().join("");
+//     }
+//   }
+//   return myArray.join(" ");
+// };
 
 // **************************************
 
@@ -37,19 +37,19 @@ const spinWords = (string) => {
 // continue reducing until single digit
 // return n
 
-const digital_root = (n) => {
-  while (n > 9) {
-    n = sumOfDigits(n);
-  }
-  return n;
-};
+// const digital_root = (n) => {
+//   while (n > 9) {
+//     n = sumOfDigits(n);
+//   }
+//   return n;
+// };
 
-const sumOfDigits = (n) => {
-  const nStr = String(n);
-  let total = 0;
+// const sumOfDigits = (n) => {
+//   const nStr = String(n);
+//   let total = 0;
 
-  for (let i = 0; i < nStr.length; i++) {
-    total += Number(nStr[i]);
-  }
-  return total;
-};
+//   for (let i = 0; i < nStr.length; i++) {
+//     total += Number(nStr[i]);
+//   }
+//   return total;
+// };
