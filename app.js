@@ -25,7 +25,6 @@ const spinWords = (string) => {
   }
   return myArray.join(" ");
 };
-
 console.log(
   'spinWords("Welcome to the pit fjdisofas"):',
   spinWords("Welcome to the pit fjdisofas")
