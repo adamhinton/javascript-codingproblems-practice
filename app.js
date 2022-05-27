@@ -31,8 +31,14 @@ const spinWords = (string) => {
 
 // PLAN:
 // take in n (int > 0)
+// while String(n).length > 1:
 // Find sum of digits of n
 // If digits.length > 1:
 // continue reducing until single digit
+// return n
 
-const digital_root = (n) => {};
+const digital_root = (n) => {
+  while (n > 9) {}
+};
+
+const sumOfDigits = (n) => {};
