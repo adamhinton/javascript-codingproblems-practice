@@ -6,6 +6,10 @@
 
 // take in string of one or more words
 //      only letters and spaces
-// reverse in place all five letter words
+// reverse in place all five letter words:
+// convert str to array: const myArray = str.split(" ")
+// loop over myArray:
+// if word.length >= 5 word.reverse()
+// return myArray
 
 const spinWords = (string) => {};
