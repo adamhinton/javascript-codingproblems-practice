@@ -4,4 +4,8 @@
 
 // Examples: spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" spinWords( "This is a test") => returns "This is a test" spinWords( "This is another test" )=> returns "This is rehtona test"
 
+// take in string of one or more words
+//      only letters and spaces
+// reverse in place all five letter words
+
 const spinWords = (string) => {};
