@@ -38,8 +38,11 @@ const spinWords = (string) => {
 // return n
 
 const digital_root = (n) => {
+  //   let myTotal = 0;
+
   while (n > 9) {
-    return sumOfDigits(n);
+    // myTotal += sumOfDigits(n);
+    n = sumOfDigits(n);
   }
   return n;
 };
@@ -53,6 +56,11 @@ const sumOfDigits = (n) => {
   }
   return total;
 };
+
+console.log("digital_root(16):", digital_root(16));
+console.log("digital_root(942):", digital_root(942));
+console.log("digital_root(493193):", digital_root(132189));
+console.log("digital_root(493193):", digital_root(493193));
 
 // console.log("sumOfDigits(25):", sumOfDigits(25));
 // console.log("sumOfDigits(0):", sumOfDigits(0));
