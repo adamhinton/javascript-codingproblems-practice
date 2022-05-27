@@ -51,6 +51,6 @@ const sumOfDigits = (n) => {
   return total;
 };
 
-console.log("sumOfDigits(25):", sumOfDigits(25));
-console.log("sumOfDigits(0):", sumOfDigits(0));
-console.log("sumOfDigits(179):", sumOfDigits(179));
+// console.log("sumOfDigits(25):", sumOfDigits(25));
+// console.log("sumOfDigits(0):", sumOfDigits(0));
+// console.log("sumOfDigits(179):", sumOfDigits(179));
