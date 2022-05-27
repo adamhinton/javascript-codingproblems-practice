@@ -38,7 +38,10 @@ const spinWords = (string) => {
 // return n
 
 const digital_root = (n) => {
-  while (n > 9) {}
+  while (n > 9) {
+    return sumOfDigits(n);
+  }
+  return n;
 };
 
 const sumOfDigits = (n) => {
