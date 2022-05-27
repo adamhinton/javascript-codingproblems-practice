@@ -14,7 +14,11 @@
 
 const spinWords = (string) => {
   const myArray = string.split(" ");
-  console.log("myArray:", myArray);
+  //   console.log("myArray:", myArray);
+
+  for (let i = 0; i < myArray.length; i++) {
+    const word = myArray[i];
+  }
 };
 
 console.log(
