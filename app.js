@@ -23,6 +23,7 @@ const spinWords = (string) => {
       console.log("myArray[i]:", myArray[i]);
     }
   }
+  return myArray.join(" ");
 };
 
 console.log(
