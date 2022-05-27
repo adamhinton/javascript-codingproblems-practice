@@ -41,4 +41,12 @@ const digital_root = (n) => {
   while (n > 9) {}
 };
 
-const sumOfDigits = (n) => {};
+const sumOfDigits = (n) => {
+  const nStr = String(n);
+  let total = 0;
+
+  for (let i = 0; i < nStr.length; i++) {
+    total += Number(nStr[i]);
+  }
+  return total;
+};
