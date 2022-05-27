@@ -12,6 +12,12 @@
 // if word.length >= 5 word.reverse()
 // return myArray
 
-const spinWords = (string) => {};
+const spinWords = (string) => {
+  const myArray = string.split(" ");
+  console.log("myArray:", myArray);
+};
 
-console.log('spinWords("Welcome"):', spinWords("Welcome"));
+console.log(
+  'spinWords("Welcome to the pit fjdisofas"):',
+  spinWords("Welcome to the pit fjdisofas")
+);
