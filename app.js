@@ -13,3 +13,5 @@
 // return myArray
 
 const spinWords = (string) => {};
+
+console.log('spinWords("Welcome"):', spinWords("Welcome"));
