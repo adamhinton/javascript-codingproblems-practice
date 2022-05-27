@@ -34,3 +34,5 @@ const spinWords = (string) => {
 // Find sum of digits of n
 // If digits.length > 1:
 // continue reducing until single digit
+
+const digital_root = (n) => {};
