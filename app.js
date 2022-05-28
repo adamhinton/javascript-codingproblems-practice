@@ -86,3 +86,9 @@
 // if charAt letter = num: miniWins ++  AND break loop
 
 // reutrn miniWins >= win ? "Winner!" : "Loser!"
+
+const bingo = (ticket, win) => {
+  let miniWins = 0;
+
+  return miniWins;
+};
