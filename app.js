@@ -105,7 +105,8 @@ const bingo = (ticket, win) => {
       //   console.log('str.charCodeAt("B"):', str.charCodeAt("B"));
     }
   }
-
+  console.log("miniWins:", miniWins);
+  console.log("win:", win);
   return miniWins >= win ? "Winner!" : "Loser!";
 };
 
@@ -127,6 +128,6 @@ console.log(
       ["HGR", 74],
       ["BYHT", 74],
     ],
-    2
+    1
   )
 );
