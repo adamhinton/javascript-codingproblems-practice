@@ -56,4 +56,9 @@
 
 // ***********************
 // Very simple, given an integer or a floating-point number, find its opposite.
+// PLAN:
+// take in number
+// convert it to negative
+// return that number
+
 const opposite = (number) => {};
