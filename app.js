@@ -77,3 +77,9 @@
 // Once you have counted all of your mini wins, compare that number to the other input provided (win). If your total is more than or equal to (win), return 'Winner!'. Else return 'Loser!'.
 
 // All inputs will be in the correct format. Strings on tickets are not always the same length.
+
+// PLAN:
+// take in ticket: list of arrays, each with two vals (str and num)
+// let miniWins = 0;
+
+// reutrn miniWins >= win ? "Winner!" : "Loser!"
