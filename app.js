@@ -81,5 +81,8 @@
 // PLAN:
 // take in ticket: list of arrays, each with two vals (str and num)
 // let miniWins = 0;
+// for each in ticket:
+// loop over str
+// if charAt letter = num: miniWins ++  AND break loop
 
 // reutrn miniWins >= win ? "Winner!" : "Loser!"
