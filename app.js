@@ -92,7 +92,14 @@ const bingo = (ticket, win) => {
 
   for (let i = 0; i < ticket.length; i++) {
     const str = ticket[i][0];
-    console.log("str:", str);
+    const winNumber = ticket[i][i];
+    // console.log("str:", str);
+    for (let i = 0; i < str.length; i++) {
+      if (str[i] === "B") {
+        break;
+      }
+      //   console.log("str[i]:", str[i]);
+    }
   }
 
   return miniWins;
