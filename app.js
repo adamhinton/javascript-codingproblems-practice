@@ -61,9 +61,4 @@
 // convert it to negative
 // return that number
 
-const opposite = (number) => {
-  return number * -1;
-};
-
-console.log("opposite(5):", opposite(5));
-console.log("opposite(-5):", opposite(-5));
+const opposite = (number) => number * -1;
