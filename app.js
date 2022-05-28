@@ -95,23 +95,27 @@ const bingo = (ticket, win) => {
     const winNumber = ticket[i][i];
     // console.log("str:", str);
     for (let i = 0; i < str.length; i++) {
-      if (str[i] === "B") {
+      console.log("str.charCodeAt(i):", str.charCodeAt(i));
+      if (str.charCodeAt(i) === winNumber) {
+        console.log("success");
+        miniWins++;
         break;
       }
-      //   console.log("str[i]:", str[i]);
+      // console.log("str[i]:", str[i]);
+      //   console.log('str.charCodeAt("B"):', str.charCodeAt("B"));
     }
   }
 
   return miniWins;
 };
 
-console.log(
-  bingo(
-    [
-      ["ABC", 65],
-      ["HGR", 74],
-      ["BYHT", 74],
-    ],
-    2
-  )
-);
+// console.log(
+//   bingo(
+//     [
+//       ["ABC", 65],
+//       ["HGR", 74],
+//       ["BYHT", 74],
+//     ],
+//     2
+//   )
+// );
