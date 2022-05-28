@@ -61,4 +61,4 @@
 // convert it to negative
 // return that number
 
-const opposite = (number) => number * -1;
+// const opposite = (number) => number * -1;
