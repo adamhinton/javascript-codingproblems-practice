@@ -88,18 +88,18 @@
 // reutrn miniWins >= win ? "Winner!" : "Loser!"
 
 const bingo = (ticket, win) => {
-  let Count = 0;
+  let County = 0;
 
   for (let i = 0; i < ticket.length; i++) {
-    const str = ticket[i][0];
-    const winNumber = ticket[i][1];
+    const currentString = ticket[i][0];
+    const neededWinNumber = ticket[i][1];
 
-    for (let i = 0; i < str.length; i++) {
-      if (str.charCodeAt(i) === winNumber) {
-        Count++;
+    for (let i = 0; i < currentString.length; i++) {
+      if (currentString.charCodeAt(i) === neededWinNumber) {
+        County++;
         break;
       }
     }
   }
-  return Count >= win ? "Winner!" : "Loser!";
+  return County >= win ? "Winner!" : "Loser!";
 };
