@@ -92,7 +92,7 @@ const bingo = (ticket, win) => {
 
   for (let i = 0; i < ticket.length; i++) {
     const str = ticket[i][0];
-    const winNumber = ticket[i][i];
+    const winNumber = ticket[i][1];
     // console.log("str:", str);
     for (let i = 0; i < str.length; i++) {
       console.log("str.charCodeAt(i):", str.charCodeAt(i));
