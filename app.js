@@ -90,5 +90,10 @@
 const bingo = (ticket, win) => {
   let miniWins = 0;
 
+  for (let i = 0; i < ticket.length; i++) {
+    const str = ticket[i][0];
+    console.log("str:", str);
+  }
+
   return miniWins;
 };
