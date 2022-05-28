@@ -97,3 +97,14 @@ const bingo = (ticket, win) => {
 
   return miniWins;
 };
+
+console.log(
+  bingo(
+    [
+      ["ABC", 65],
+      ["HGR", 74],
+      ["BYHT", 74],
+    ],
+    2
+  )
+);
