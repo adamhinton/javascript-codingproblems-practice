@@ -88,7 +88,7 @@
 // reutrn miniWins >= win ? "Winner!" : "Loser!"
 
 const bingo = (ticket, win) => {
-  let miniWins = 0;
+  let Count = 0;
 
   for (let i = 0; i < ticket.length; i++) {
     const str = ticket[i][0];
@@ -96,10 +96,10 @@ const bingo = (ticket, win) => {
 
     for (let i = 0; i < str.length; i++) {
       if (str.charCodeAt(i) === winNumber) {
-        miniWins++;
+        Count++;
         break;
       }
     }
   }
-  return miniWins >= win ? "Winner!" : "Loser!";
+  return Count >= win ? "Winner!" : "Loser!";
 };
