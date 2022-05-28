@@ -106,7 +106,7 @@ const bingo = (ticket, win) => {
     }
   }
 
-  return miniWins;
+  return miniWins >= win ? "Winner!" : "Loser!";
 };
 
 // console.log(
@@ -119,3 +119,14 @@ const bingo = (ticket, win) => {
 //     2
 //   )
 // );
+
+console.log(
+  bingo(
+    [
+      ["ABC", 65],
+      ["HGR", 74],
+      ["BYHT", 74],
+    ],
+    2
+  )
+);
