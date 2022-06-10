@@ -130,6 +130,3 @@ const persistence = (num) => {
 const multiplyDigits = (num) => {
   return [...num.toString()].reduce((p, v) => p * v);
 };
-
-// console.log("multiplyDigits(1234):", multiplyDigits(1234));
-console.log("persistence(39):", persistence(39));
