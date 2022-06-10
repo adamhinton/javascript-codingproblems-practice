@@ -120,6 +120,7 @@ const persistence = (num) => {
   let count = 0;
 
   while (num > 9) {
+    count++;
     const multipliedDigits = multiplyDigits(num);
 
     return persistence(multipliedDigits);
