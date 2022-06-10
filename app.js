@@ -111,6 +111,7 @@
 // PLAN:
 // let count = 0;
 // while num is > 9:
+// return persistence (all digits of num multiplied together)
 // return count;
 
 const persistence = (num) => {};
