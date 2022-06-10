@@ -120,6 +120,7 @@ const persistence = (num) => {
   let count = 0;
 
   while (num > 9) {
+    console.log("count ++");
     count++;
     const multipliedDigits = multiplyDigits(num);
 
@@ -134,4 +135,4 @@ const multiplyDigits = (num) => {
 };
 
 // console.log("multiplyDigits(1234):", multiplyDigits(1234));
-console.log("persistence(3):", persistence(3));
+console.log("persistence(39):", persistence(39));
