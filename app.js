@@ -117,3 +117,5 @@
 // return count;
 
 const persistence = (num) => {};
+
+const multiplyDigits = (num) => {};
