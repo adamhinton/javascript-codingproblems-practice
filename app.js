@@ -116,6 +116,10 @@
 // return persistence (all digits of num multiplied together)
 // return count;
 
-const persistence = (num) => {
-  return [...number.toString()].reduce((p, v) => p * v);
+const persistence = (num) => {};
+
+const multiplyDigits = (num) => {
+  return [...num.toString()].reduce((p, v) => p * v);
 };
+
+console.log("multiplyDigits(1234):", multiplyDigits(1234));
