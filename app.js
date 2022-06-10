@@ -121,10 +121,6 @@ const persistence = (num) => {
 
   while (num > 9) {
     count++;
-    console.log("count:", count);
-    const multipliedDigits = multiplyDigits(num);
-
-    // return persistence(multipliedDigits);
     num = multiplyDigits(num);
   }
 
