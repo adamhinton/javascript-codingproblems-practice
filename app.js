@@ -87,19 +87,19 @@
 
 // reutrn miniWins >= win ? "Winner!" : "Loser!"
 
-const bingo = (ticket, win) => {
-  let miniWinCount = 0;
+// const bingo = (ticket, win) => {
+//   let miniWinCount = 0;
 
-  for (let i = 0; i < ticket.length; i++) {
-    const currentString = ticket[i][0];
-    const neededWinNumber = ticket[i][1];
+//   for (let i = 0; i < ticket.length; i++) {
+//     const currentString = ticket[i][0];
+//     const neededWinNumber = ticket[i][1];
 
-    for (let j = 0; i < currentString.length; j++) {
-      if (currentString.charCodeAt(j) === neededWinNumber) {
-        miniWinCount++;
-        break;
-      }
-    }
-  }
-  return miniWinCount >= win ? "Winner!" : "Loser!";
-};
+//     for (let j = 0; j < currentString.length; j++) {
+//       if (currentString.charCodeAt(j) === neededWinNumber) {
+//         miniWinCount++;
+//         break;
+//       }
+//     }
+//   }
+//   return miniWinCount >= win ? "Winner!" : "Loser!";
+// };
