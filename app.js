@@ -116,7 +116,17 @@
 // return persistence (all digits of num multiplied together)
 // return count;
 
-const persistence = (num) => {};
+const persistence = (num) => {
+  let count = 0;
+
+  while (num > 9) {
+    const multipliedDigits = multiplyDigits(num);
+
+    return persistence(multipliedDigits);
+  }
+
+  return count;
+};
 
 const multiplyDigits = (num) => {
   return [...num.toString()].reduce((p, v) => p * v);
