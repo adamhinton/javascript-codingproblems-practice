@@ -110,7 +110,7 @@
 
 // PLAN:
 // let count = 0;
-
+// while num is > 9:
 // return count;
 
 const persistence = (num) => {};
